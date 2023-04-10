@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
+
+
+body{
+    background-color: #edeaff;
+    font-family: 'Courier Prime', monospace;
+    background-image: url(https://thumbs.dreamstime.com/b/panorama-view-sea-colorful-sky-cloud-bright-full-moon-seascape-to-night-serenity-nature-background-outdoor-131503361.jpg);
+}
+.header{
+    color: white;
+    text-align: center;
+    
+}
+.Stopwatch{
+    width: 90%;
+    max-width: 600px;    
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
+    
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+
+}
+
+.Stopwatch h1{
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+ } 
+ .button img{
+    width: 50px;
+ margin: 0 20px;
+ cursor: pointer;
+ 
+  
+}
+.button img:nth-child(2){
+    width: 75px;
+ 
+  
+}
